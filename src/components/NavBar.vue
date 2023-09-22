@@ -1,5 +1,7 @@
 <template>
-  <nav class="relative flex flex-wrap items-center justify-between bg-white-500 mb-3 container px-6 py-4 mx-auto  md:flex md:justify-between md:items-center">
+  <nav
+    class="w-5/6 max-md:w-full relative flex flex-wrap items-center justify-between bg-white-500 mb-3 container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"
+  >
     <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
       <div
         class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start"
@@ -24,7 +26,7 @@
             class="w-6 h-6"
           >
             <path
-              stroke-linecap="round"
+              stroke-linecap="round"  
               stroke-linejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
