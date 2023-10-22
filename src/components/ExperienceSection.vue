@@ -3,7 +3,8 @@ export default {
   data() {
     return {
       Title: 'Work Experience',
-      jobTitle: 'Front-end Developer'
+      jobTitle: 'Front-end Developer',
+      NidecJob: 'Software Solutions Developer'
     }
   }
 }
@@ -39,7 +40,7 @@ export default {
         >
       </h3>
       <ul class="list-disc w-auto px-1">
-        <li>February 2023 - Present</li>
+        <li>February 2023 - November 2023</li>
         <li>
           Creating and maintaining the overall functionality and styling of the application through
           bug fixes and new features and components.
@@ -47,6 +48,20 @@ export default {
         <li>
           Using front end development tools such as Angular, Native Script, SCSS and Bootstrap.
         </li>
+      </ul>
+    </div>
+
+    <div class="flex-row max-sm:flex-col pt-5">
+      <h3 class="text-lg py-1.2">
+        {{ NidecJob }} @
+        <a href="https://www.nidec-industrial.com/" class="font-bold text-blue-400"
+          >Nidec Control Techniques</a
+        >
+      </h3>
+      <ul class="list-disc w-auto px-1">
+        <li>December 2023 - Present</li>
+        <li>Developing and maintain current software applications and providing end user support.</li>
+        <li>Using technologies such as  ASP.NET, C# and JavaScript</li>
       </ul>
     </div>
   </section>
