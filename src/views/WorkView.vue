@@ -1,10 +1,19 @@
-<template>
-    <div class="about">
-      <h1>This is an about page</h1>
-    </div>
-  </template>
-  
-  <style>
-  
-  </style>
-  
+<script>
+import ProjectsComponent from '../components/ProjectsComponent.vue';
+
+export default {
+    data() {
+        return {};
+    },
+    components: { ProjectsComponent }
+}
+</script>
+
+
+<template class="container px-5 py-3 mx-auto flex flex-row sm:max-lg:flex-col">
+  <div>
+   <ProjectsComponent />
+  </div>
+</template>
+
+<style></style>
