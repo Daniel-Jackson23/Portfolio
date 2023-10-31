@@ -39,10 +39,18 @@ export default {
             >Web Speech API</span
           >
         </div>
+        <div class="flex justify-normal px-6 pt-4 pb-2">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            <a href="https://github.com/Daniel-Jackson23/Text-to-speech-FYP"> View Code </a>
+          </button>
+        </div>
       </div>
       <!--Card 2-->
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="../assets/Projects/Jacks_Pets.png" alt="Jacks pet shop" />
+        <img class="image-1" src="../assets/Projects/Jacks_Pets.png" alt="Jacks pet shop" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Jacks Pet Shop</div>
           <p class="text-gray-700 text-base">
@@ -64,33 +72,56 @@ export default {
             >TailwindCSS</span
           >
         </div>
+        <div class="flex justify-normal px-6 pt-4 pb-2">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            <a href="https://github.com/Daniel-Jackson23/jackspet"> View Code </a>
+          </button>
+        </div>
       </div>
 
       <!--Card 3-->
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="/forest.jpg" alt="Forest" />
+        <img class="w-full" src="../assets/Projects/Svelete-todo.png" alt="To do" />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Forest</div>
+          <div class="font-bold text-xl mb-2">Svelte ToDo list</div>
           <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea!
-            Maiores et perferendis eaque, exercitationem praesentium nihil.
+            Part of my final year at university was to create a project with a new technology I
+            choice to use Svelte JS.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-            >#photography</span
+            >Svelte</span
           >
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-            >#travel</span
+            >Javascript</span
           >
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-            >#fall</span
+            >CSS</span
           >
+        </div>
+        <div class="flex justify-normal px-6 pt-4 pb-2">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            <a href="https://github.com/Daniel-Jackson23/SvelteKit-Todos"> View Code </a>
+          </button>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+.image-1 {
+  width: 365px;
+  height: 176px;
+}
+</style>

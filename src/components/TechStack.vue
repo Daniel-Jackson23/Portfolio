@@ -39,7 +39,7 @@ export default {
         <div>
           <img
             class="h-auto max-w-full rounded-lg p-2"
-            src="../assets/logos/react-1-logo-png-transparent.png"
+            src="../assets/logos/React-new.png"
             alt=""
           />
         </div>
