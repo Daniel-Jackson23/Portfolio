@@ -9,7 +9,7 @@
         <a
           class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
         >
-          Daniel Jackson
+          <router-link to="/"> Daniel Jackson </router-link>
         </a>
         <button
           class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -25,7 +25,7 @@
             class="w-6 h-6"
           >
             <path
-              stroke-linecap="round"  
+              stroke-linecap="round"
               stroke-linejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
@@ -41,7 +41,7 @@
             <router-link
               to="/"
               class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-              href="#pablo"
+              href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2">Home</span>
             </router-link>
@@ -50,7 +50,7 @@
             <router-link
               to="/about"
               class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-              href="#pablo"
+              href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2"
                 >About me</span
@@ -61,7 +61,7 @@
             <router-link
               to="/work"
               class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-              href="#pablo"
+              href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2"
                 >Projects</span
