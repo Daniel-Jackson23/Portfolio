@@ -25,7 +25,7 @@ export default {
         <p>
           My name is <span class="font-bold">{{ name }}</span> I'm
           <span class="font-bold">{{ jobTitle }}</span
-          >. I am interested in building web applications, designing websites and mobile apps I have
+          >. I build web applications, designing websites and mobile apps I have
           recently graduated University with a BSC in Computer Science. My final year project was a
           web based text to speech application for students with dyslexia.
         </p>
@@ -46,7 +46,7 @@ export default {
           >
         </div>
       </div>
-      <img src="../assets/web-dev.png" alt="web dev" class="rounded pl-0.5" />
+      <img src="../assets/main-image.jpg" alt="web dev" class="rounded pl-0.5" />
     </div>
   </section>
 </template>
