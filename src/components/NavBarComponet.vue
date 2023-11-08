@@ -40,7 +40,7 @@
           <li class="nav-item">
             <router-link
               to="/"
-              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline"
               href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2">Home</span>
@@ -49,7 +49,7 @@
           <li class="nav-item">
             <router-link
               to="/about"
-              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline"
               href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2"
@@ -60,7 +60,7 @@
           <li class="nav-item">
             <router-link
               to="/work"
-              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+              class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75 hover:underline"
               href=""
             >
               <i class="text-lg leading-lg text-white opacity-75" /><span class="ml-2"
