@@ -134,7 +134,7 @@ export default {
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Vue ToDo list</div>
           <p class="text-gray-700 text-base">
-            Part of one of my final year modules was to use a showcase a technology that you have
+            One of my final year modules (Multiple Devices and User Experiance) was to use a showcase a technology that you have
             used before by creating anything that I wanted.
           </p>
         </div>
