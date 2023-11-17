@@ -54,7 +54,7 @@ export default {
       </div>
       <!--Card 2-->
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="image-1" src="../assets/Projects/Jacks_Pets.png" alt="Jacks pet shop" />
+        <img class="image-1 " src="../assets/Projects/Jacks_Pets.png" alt="Jacks pet shop" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Jacks Pet Shop</div>
           <p class="text-gray-700 text-base">
@@ -208,7 +208,7 @@ export default {
 
 <style scoped>
 .image-1 {
-  width: 365px;
-  height: 176px;
+  width: 100%;
+  height: 200px;
 }
 </style>
