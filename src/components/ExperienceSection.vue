@@ -16,7 +16,9 @@ export default {
       <h2 class="text-2xl font-bold text-center p-4">{{ Title }}</h2>
       <h3 class="text-lg py-1.2">
         {{ jobTitle }}@
-        <a href="https://www.awaredigital.co.uk/" class="font-bold text-blue-400">Aware Digital</a>
+        <a href="https://www.awaredigital.co.uk/" target="_blank" class="font-bold text-blue-400"
+          >Aware Digital</a
+        >
       </h3>
       <ul class="list-disc w-auto px-1">
         <li>August 2021 - July 2022</li>
@@ -35,6 +37,7 @@ export default {
         {{ jobTitle }} @
         <a
           href="https://www.sgworld.com/?utm_term=sg%20world&utm_campaign=SG+World+Brand+Advert&utm_source=adwords&utm_medium=ppc&hsa_acc=8938409363&hsa_cam=13257716876&hsa_grp=123538577220&hsa_ad=523866470832&hsa_src=g&hsa_tgt=kwd-322252472350&hsa_kw=sg%20world&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad=1&gclid=Cj0KCQjw9rSoBhCiARIsAFOiplmwoDGDN_CP416iWGiz0Z0akag5XZkGVqMP8xLG98SYGzYCYf0qAMcaAlDVEALw_wcB"
+          target="_blank"
           class="font-bold text-blue-400"
           >SG World</a
         >
@@ -55,13 +58,16 @@ export default {
       <h3 class="text-lg py-1.2">
         {{ NidecJob }} @
         <a href="https://www.nidec-industrial.com/" class="font-bold text-blue-400"
+        target="_blank"
           >Nidec Control Techniques</a
         >
       </h3>
       <ul class="list-disc w-auto px-1">
         <li>December 2023 - Present</li>
-        <li>Developing and maintain current software applications and providing end user support.</li>
-        <li>Using technologies such as  ASP.NET, C# and JavaScript</li>
+        <li>
+          Developing and maintain current software applications and providing end user support.
+        </li>
+        <li>Using technologies such as ASP.NET, C# and JavaScript</li>
       </ul>
     </div>
   </section>
