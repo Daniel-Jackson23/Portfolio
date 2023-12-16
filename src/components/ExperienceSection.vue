@@ -65,9 +65,9 @@ export default {
       <ul class="list-disc w-auto px-1">
         <li>December 2023 - Present</li>
         <li>
-          Developing and maintain current software applications and providing end user support.
+          Developing full stack applications for worldwide shipments based around Europe, North America and Asia.
         </li>
-        <li>Using technologies such as ASP.NET, C# and JavaScript</li>
+        <li>Using technologies such as ASP.NET (MVC), C# and JavaScript</li>
       </ul>
     </div>
   </section>
