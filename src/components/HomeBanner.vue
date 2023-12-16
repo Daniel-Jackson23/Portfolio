@@ -20,7 +20,7 @@ export default {
 <template>
   <section class="max-w-8l mx-auto w-5/6 max-md:w-full px-6 sm:px-6">
     <div class="flex justify-center flex-row max-sm:flex-col">
-      <div class="relative w-2/4 max-sm:w-full">
+      <div class="relative w-2/4 max-sm:w-full px-10">
         <h1 class="font-bold text-4xl py-10">Welcome!!</h1>
         <p>
           My name is <span class="font-bold">{{ name }}</span> I'm
