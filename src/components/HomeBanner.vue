@@ -20,9 +20,9 @@ export default {
 <template>
   <section class="max-w-8l mx-auto w-5/6 max-md:w-full px-6 sm:px-6">
     <div class="flex justify-center flex-row max-sm:flex-col">
-      <div class="relative w-2/4 max-sm:w-full px-10">
+      <div class="relative max-sm:w-full pl-3 w-full max-w-96 ">
         <h1 class="font-bold text-4xl py-10">Welcome!!</h1>
-        <p>
+        <p class="">
           My name is <span class="font-bold">{{ name }}</span> I'm
           <span class="font-bold">{{ jobTitle }}</span
           >. I build web applications, designing websites and mobile apps I have
