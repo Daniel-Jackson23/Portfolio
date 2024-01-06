@@ -1,12 +1,17 @@
 <script>
 import AboutMeComponent from '../components/AboutMeComponent.vue'
+import PhotosComponent from '../components/PhotosComponent.vue';
+import json from '../assets/JsonData/PhotoData.json'
 
 export default {
   data() {
-    return {}
+    return {
+      photos: json
+    }
   },
   components: {
-    AboutMeComponent
+    AboutMeComponent,
+    PhotosComponent
   }
 }
 </script>
@@ -15,6 +20,8 @@ export default {
   <div>
     <AboutMeComponent />  
   </div>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+    <PhotosComponent class=""  v-for="photo in photos" :key="photo.id" :image="photo.image" />
+  </div>
 </template>
 
-<style></style>
