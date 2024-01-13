@@ -9,10 +9,10 @@ export default {
 }
 </script>
 
-<template>
-  <section class="max-w-8l mx-auto w-5/6 max-md:w-full px-6 sm:px-6">
+<template class="">
+  <section>
     <div>
-      <img class="h-auto max-w-full rounded-lg" :src="image" alt="" sizes="" srcset="" />
+      <img class="h-auto max-w-full rounded-lg" :src="image" alt="" width="500" height="500" />
     </div>
   </section>
 </template>
