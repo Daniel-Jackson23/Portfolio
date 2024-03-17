@@ -22,7 +22,7 @@ export default {
     <div class="flex justify-center flex-row max-sm:flex-col">
       <div class="relative max-sm:w-full pl-3 w-full max-w-96 ">
         <h1 class="font-bold text-4xl py-10">Welcome!!</h1>
-        <p class="">
+        <p class="w-auto">
           My name is <span class="font-bold">{{ name }}</span> I'm
           <span class="font-bold">{{ jobTitle }}</span
           >. I build web applications, designing websites and mobile apps I have

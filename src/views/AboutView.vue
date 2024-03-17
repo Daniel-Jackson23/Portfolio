@@ -11,7 +11,7 @@ export default {
   },
   components: {
     AboutMeComponent,
-    PhotosComponent
+    // PhotosComponent
   }
 }
 </script>
@@ -20,10 +20,10 @@ export default {
   <div >
     <AboutMeComponent />
   </div>
-  <div class="max-w-8l mx-auto w-5/6 max-md:w-full px-6 sm:px-6">
+  <!-- <div class="max-w-8l mx-auto w-5/6 max-md:w-full px-6 sm:px-6">
     <h2 class="font-bold text-3xl py-5">Photos I've taken</h2>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
       <PhotosComponent class="" v-for="photo in photos" :key="photo.id" :image="photo.image" />
     </div>
-  </div>
+  </div> -->
 </template>
